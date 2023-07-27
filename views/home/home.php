@@ -37,30 +37,4 @@
             <div class="btn_right">></div>
         </div>
     </div>
-    
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
-
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nam ex earum, quibusdam iste similique illum reiciendis mollitia? Accusamus consequatur aperiam enim voluptas, quo inventore nisi adipisci sit suscipit mollitia. Vero fuga consequatur temporibus explicabo, illum in! Dolorum, id minima.</p>
-    </section>
 </main>
