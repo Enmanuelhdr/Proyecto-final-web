@@ -1,3 +1,74 @@
-body {
-    background-color: aqua;
+/* .main_slider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+} */
+
+.container_carousel {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    overflow: hidden;
+}
+
+.carruseles {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+}
+
+.slider_section {
+    width: calc(100% / 10);
+    height: 100%;
+}
+
+.slider_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn_left, .btn_right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 5px 17px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    user-select: none;
+}
+
+.btn_left:hover, .btn_right:hover {
+    background-color: #333333d4;
+    color: white;
+}
+
+.btn_left{
+    left: 10px;
+}
+
+.btn_right {
+    right: 10px;
 }
