@@ -8,7 +8,7 @@ btnRight.addEventListener("click", e => moveToRight());
 
 setInterval(()=>{
     moveToRight();
-}, 3500);
+}, 5000);
 
 let operacion = 0;
 let counter = 0;
