@@ -79,6 +79,10 @@
                 
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script src="http://localhost/Proyecto-final-web/assets/js/custom/main.js"></script>
         <script src="http://localhost/Proyecto-final-web/assets/js/Bootstrap-js/bootstrap.bundle.js"></script>
     </body>
