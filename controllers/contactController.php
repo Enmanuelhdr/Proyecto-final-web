@@ -15,7 +15,7 @@
             $comentario = $_POST['comentario'];
 
             $id = $this->model->insertar($fecha, $correo, $nombre, $asunto,  $comentario);
-            return ($id!=false) ? header("Location:show.php?id=".$id) : header("Location:create.php");
+            return ($id!=false) ? header("Location:contact.php?id=".$id) : header("Location:create.php");
         }
         public function show($id){
             return ($this->model->show($id) != false) ? $this->model->show($id) : header("Location:index.php");
