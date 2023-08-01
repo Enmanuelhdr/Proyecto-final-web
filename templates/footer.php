@@ -84,6 +84,7 @@
             AOS.init();
         </script>
         <script src="http://localhost/Proyecto-final-web/assets/js/custom/main.js"></script>
+        <script src="http://localhost/Proyecto-final-web/assets/js/custom/time/time.js"></script>
         <script src="http://localhost/Proyecto-final-web/assets/js/Bootstrap-js/bootstrap.bundle.js"></script>
     </body>
 </html>

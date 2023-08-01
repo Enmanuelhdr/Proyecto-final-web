@@ -43,7 +43,7 @@
                     <a class="nav-link" href="http://localhost/Proyecto-final-web/views/autors/autors.php">Autores</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/Proyecto-final-web/views/contact/contact.php">Contacto</a>
+                    <a class="nav-link" href="http://localhost/Proyecto-final-web/views/contact/create.php">Contacto</a>
                 </li>
                 <li class="nav-item dropdown" data-bs-theme="dark">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
