@@ -7,7 +7,8 @@ require_once("../../templates/head.php");
     <hr class="mx-5 px-5">
     <div class="container my-4">
         <div class="row">
-            <form action="../../controllers/contactController.php" method="POST" autocomplete="off">
+            <!-- /Proyecto-final-web/controllers/contactController.php  -->
+            <form action="/Proyecto-final-web/controllers/contactController.php" method="POST" autocomplete="off">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="exampleInputPassword1" class="form-label">Nombre</label>

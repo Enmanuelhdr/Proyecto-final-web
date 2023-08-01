@@ -7,15 +7,31 @@
             $con = new db();
             $this->PDO = $con->conexion();
         }
+
         public function insertar($fecha, $correo, $nombre, $asunto, $comentario){
             $stament = $this->PDO->prepare("INSERT INTO contacto VALUES(null,'$fecha','$correo','$nombre','$asunto','$comentario')");
             return ($stament->execute()) ? $this->PDO->lastInsertId() : false ;
         }
-        public function show($id){
-            $stament = $this->PDO->prepare("SELECT * FROM contacto where id = :id limit 1");
-            $stament->bindParam(":id",$id);
-            return ($stament->execute()) ? $stament->fetch() : false ;
-        }
-    }
 
+        /* public function insertar($fecha, $correo, $nombre, $asunto, $comentario) {
+            $sql = "INSERT INTO contacto (fecha, correo, nombre, asunto, comentario) VALUES (:fecha, :correo, :nombre, :asunto, :comentario)";
+            $stmt = $this->PDO->prepare($sql);
+    
+            // Bind de parámetros con valores
+            $stmt->bindParam(':fecha', $fecha);
+            $stmt->bindParam(':correo', $correo);
+            $stmt->bindParam(':nombre', $nombre);
+            $stmt->bindParam(':asunto', $asunto);
+            $stmt->bindParam(':comentario', $comentario);
+    
+            try {
+                $stmt->execute();
+                return true;
+            } catch(PDOException $e) {
+                // Manejo de errores
+                echo "Error al guardar el formulario: " . $e->getMessage();
+                return false;
+            }
+        } */
+    }
 ?>
