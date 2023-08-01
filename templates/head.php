@@ -7,8 +7,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="http://localhost/Proyecto-final-web/assets/css/custom/Main.css">
     <link rel="stylesheet" href="http://localhost/Proyecto-final-web/assets/css/Bootstrap-css/bootstrap.css">
-    
-    <title>Document</title>
+    <?php
+        $url = $_SERVER['REQUEST_URI'];
+        $nombreArchivo = ucwords(pathinfo(basename($url), PATHINFO_FILENAME));
+        echo "<title>{$nombreArchivo}</title>";
+    ?>
+        
 </head>
 
 <body>
@@ -45,21 +49,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="http://localhost/Proyecto-final-web/views/contact/create.php">Contacto</a>
                 </li>
-                <li class="nav-item dropdown" data-bs-theme="dark">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Practices
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Practice 1</a></li>
-                        <!-- <li><a class="dropdown-item" href="#">Practice 2</a></li>
-                        <li><a class="dropdown-item" href="#">Practice 3</a></li>
-                        <li><a class="dropdown-item" href="#">Practice 4</a></li>
-                        <li><a class="dropdown-item" href="#">Practice 5</a></li>
-                        <li><a class="dropdown-item" href="#">Practice 6</a></li> -->
-                    </ul>
-                </li>
             </ul>
 
             <hr class="d-md-none text-white-50">
@@ -67,7 +56,7 @@
 
             <!-- Social media links -->
             <p class="d-md-none text-light">Buscador</p>
-            <form class="d-flex" role="search">
+            <form class="d-flex" role="search" action="" method="GET">
                     <input class="form-control me-2 my-1" type="search" placeholder="Buscar libro / autor..." aria-label="Search">
                     <button class="btn btn-outline-success my-1" type="submit">Buscar</button>
             </form>
