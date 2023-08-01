@@ -1,19 +1,17 @@
 <?php
-
-    class Db{
-        private $host = "localhost";
-        private $user = "root";
-        private $password = "";
-        private $db = "libreria";
-
-        public function conexion()
-        {
+    class db{
+        private $host= "localhost";
+        private $dbname="libreria";
+        private $user="root";
+        private $password="";
+        public function conexion(){
             try{
-                $PDO = new PDO("mysql:host=" . $this -> host . ";dbname=" . $this -> db, $this -> user, $this -> password);
+                $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname,$this->user,$this->password);
                 return $PDO;
-            } catch (PDOException $e){
-                return $e -> getMessage();
+            }catch(PDOException $e){
+                return $e->getMessage();
             }
         }
-    } // end class conection
+    }
+
 ?>
