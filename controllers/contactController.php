@@ -6,7 +6,14 @@
             require_once("C:/xampp/htdocs/Proyecto-final-web/models/contactModel.php");
             $this->model = new usernameModel();
         }
-        public function guardar($fecha, $correo, $nombre, $asunto,  $comentario){
+        public function guardar(){
+
+            $fecha = $_POST['fecha'];
+            $correo = $_POST['correo'];
+            $nombre = $_POST['nombre'];
+            $asunto = $_POST['asunto'];
+            $comentario = $_POST['comentario'];
+
             $id = $this->model->insertar($fecha, $correo, $nombre, $asunto,  $comentario);
             return ($id!=false) ? header("Location:show.php?id=".$id) : header("Location:create.php");
         }
