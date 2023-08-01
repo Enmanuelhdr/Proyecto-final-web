@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="http://localhost/Proyecto-final-web/assets/css/custom/Main.css">
     <link rel="stylesheet" href="http://localhost/Proyecto-final-web/assets/css/Bootstrap-css/bootstrap.css">
+    <link rel="shortcut icon" href="http://localhost/Proyecto-final-web/assets/img/favicon/favicon.ico" type="image/x-icon">
     <?php
         $url = $_SERVER['REQUEST_URI'];
         $nombreArchivo = ucwords(pathinfo(basename($url), PATHINFO_FILENAME));
